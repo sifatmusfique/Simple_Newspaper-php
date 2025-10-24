@@ -124,16 +124,3 @@ Password: mod@1234
 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details (if one exists).
-
-
-**Next Steps:**
-
-1.  **Save this content** into a file named `README.md` in the root directory of your `Simple_Newspaper-php` project.
-2.  **Stage and commit** the new `README.md` file using Git:
-    ```bash
-    git add README.md
-    git commit -m "Update README with professional details and live demo link"
-    ```
-3.  **Push the changes** to your GitHub repository:
-    ```bash
-    git push origin main

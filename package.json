@@ -1,0 +1,20 @@
+{
+  "name": "rajshahi-chronicle",
+  "version": "1.0.0",
+  "description": "A dynamic newspaper website.",
+  "main": "index.php",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "php",
+    "tailwind",
+    "news"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
+

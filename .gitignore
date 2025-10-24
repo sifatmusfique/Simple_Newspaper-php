@@ -1,0 +1,54 @@
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+node_modules/ 
+
+)
+uploads/
+*.log
+tmp/
+```
+
+**Explanation of `.gitignore`:**
+
+* `.vscode/`, `.idea/`, `.DS_Store`, `Thumbs.db`: Ignores files specific to code editors or operating systems.
+* `node_modules/`: **Very important!** Ignores the huge folder containing development dependencies installed by `npm install`. These should not be on GitHub.
+* `config/database.php`: **Crucial for security!** This prevents you from accidentally uploading your database password to a public repository. You should create a `config/database.php.example` file with placeholder credentials and add instructions in a README for others to copy and fill it in.
+* `uploads/`: Ignores the folder where user-uploaded images are stored. You don't want these in your code repository.
+* `*.log`, `tmp/`: Ignores log files or temporary directories.
+
+
+1.  **Stage Files:** Tell Git you want to track all the *allowed* files (everything except those in `.gitignore`).
+    ```bash
+    git add .
+    ```
+2.  **Commit Files:** Save a snapshot of your project with a descriptive message.
+    ```bash
+    git commit -m "Initial commit: Add newspaper website project files"
+    ```
+
+
+
+1.  **Copy the URL:** Go back to the GitHub repository page you created in Step 2. Copy the HTTPS URL provided under "…or push an existing repository from the command line".
+2.  **Add Remote:** In your terminal, run this command, replacing the URL with the one you copied:
+    ```bash
+    git remote add origin https://github.com/your-username/your-repository-name.git
+    ```
+3.  **Verify (Optional):** You can check if the remote was added correctly:
+    ```bash
+    git remote -v
+    ```
+
+
+
+1.  **Rename Branch (Standard Practice):** It's common practice to rename the default branch from `master` to `main`.
+    ```bash
+    git branch -M main
+    ```
+2.  **Push:** Upload your committed code to GitHub. The `-u` flag sets the upstream branch so you can just use `git push` in the future.
+    ```bash
+    git push -u origin main
+    

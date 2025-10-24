@@ -4,7 +4,7 @@ A dynamic, responsive newspaper website built with PHP, MySQL, Tailwind CSS, and
 
 ✨ Live Demo
 
-Check out the live version: https://sifatmusfique.unaux.com
+Check out the live version: https://sifatmusfique.unaux.com/news
 
 🚀 Features
 

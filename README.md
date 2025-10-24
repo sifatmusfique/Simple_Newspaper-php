@@ -99,6 +99,8 @@ URL: http://localhost/Simple_Newspaper-php/admin/
 
 Username: admin
 
-Password: username@4 (or password123 if you used the alternative hash during setup)
+Password: admin@1234
 
-You can also log in as moderator with the same password, but moderators cannot access User Management.
+Username: moderator
+
+Password: moderator@1234
